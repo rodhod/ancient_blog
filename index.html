@@ -1,61 +1,157 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Rod's Personal Portfolio">
+    <meta name="description" content="Rod's Portfolio">
     <meta name="author" content="Rod Hodge">
-    <link rel="icon" href="favicon.ico">
 
-    <title>My Portfolio</title>
+    <title>Rod's Page</title>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/custom.css">
- </head>
-  <body>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="site-wrapper">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
-      <div class="site-wrapper-inner">
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-        <div class="cover-container">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Rod Hodge</h3>
-              <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Bio</a></li>
-                <li><a href="#">Socialize</a></li>
-              </ul>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                      <span class="light">Rod Hodge </span> 
+                </a>
             </div>
-          </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Yo.</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget lacus sed nunc faucibus vehicula. Nulla facilisi. Quisque sit amet dolor gravida, fringilla lectus at, malesuada magna. Maecenas ut cursus metus. Mauris in mollis elit, eu tincidunt sem. Aliquam lacinia libero id odio accumsan faucibus. Suspendisse potenti. Vestibulum non consectetur elit. Sed sem justo, pretium sed felis blandit, consequat dignissim nulla. In dapibus porttitor erat, iaculis consequat nisi hendrerit vel. In in mi aliquam, accumsan mauris vel, dignissim ante.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Blank Button</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Personal Portfolio by, <a href="https://twitter.com/smxkey">@smxkey</a>.</p>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-      </div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">What's up?</h1>
+                        <p class="intro-text">My name is Rod, and this is my portfolio.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    </div>
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+        <div class="about-section">
+            <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About me</h2>
+ <p>Hi! I'm an intuitive developer, not to mention a ruthless cyclist.</p>
+            </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-  </body>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="text-center">
+        <div class="portfolio-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="loud">My Portfolio</h2>
+                    <p>Here is a list of my projects</p>
+                    <a href="/" class="btn btn-default btn-lg">Flappy Boxes</a>
+                    <a href="/" class="btn btn-default btn-lg">CTA App</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 class="loud">Contact Me</h2>
+                <p>Feel free to contact me anytime!</p>
+                <p><a href="mailto:kenneth@blue1647.com">kenneth@blue1647.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/kennethjulian" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/virtica" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/virtica" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; 2014</p>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/portfolio.js"></script>
+
+</body>
+
 </html>
