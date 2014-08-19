@@ -136,7 +136,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/phone.jpg) no-repeat bottom center scroll;
+    background: url(../img/car.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -253,9 +253,9 @@ a:focus {
 .portfolio-section {
     width: 100%;
     height:auto;
-    padding: 0;
+    padding: 100px 0;
     color: #fff;
-    background: url(../img/controller.jpg) no-repeat bottom center scroll;
+    background: url(../img/car2.jpg) no-repeat center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
